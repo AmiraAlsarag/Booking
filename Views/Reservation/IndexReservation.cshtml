@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Booking_web.Models.Dto.ReservationDTO>
+<br />
+
+<div class="container p-4 border">
+	<div class=" row pb-2">
+		<div class="col">
+
+
+			<h1 class="text-primary">Reservation List</h1>
+			</div>
+		<div class="col text-end pt-a">
+			<a asp-controller="Reservation" asp-action="CreateReservation" class="btn btn-outline-primary"><i class="bi bi-plus-square-fill"></i>Create New Reservation</a>
+	</div>
+
+	</div>
+
+	<table class="table">
+	<thead>
+		
+		<tr>
+			<th>
+				Customer Name
+			</th>
+			<th>
+				Reserved By
+			</th>
+			<th>
+				Reservation Date
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach(var item in Model)
+		{<tr>
+				<td>@item.CustomerName</td>
+				<td>@item.ReservedBy</td>
+				<td>@item.ReservationDate</td>
+				<td>
+						<a asp-controller="Reservation" asp-action="UpdateReservation" class="btn btn-success"><i class="bi bi-pencil-square"></i>Update Reservation</a>
+						<a asp-controller="Reservation" asp-action="DeleteReservation" class="btn btn-danger"><i class="bi bi-trash3-fill"></i>Delete Reservation</a>
+
+				</td>
+
+
+
+		</tr>
+		}
+	</tbody>
+	</table>
+
+ 
+</div>

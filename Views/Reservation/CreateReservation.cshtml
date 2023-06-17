@@ -1,0 +1,73 @@
+﻿@model Booking_web.Models.Dto.ReservationCreateDTO
+
+<form asp-action="CreateResevation">
+	<br/>
+	<div class="container border p-3">
+		<h1 class="text-primary">Create Reservation </h1>
+		
+
+		<hr />
+		<div class="row">
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+			<div class="col-2">
+				<label asp-for="CustomerName" class="control-label pt-2" style="font-size:20px;"></label>
+			</div>
+		<div class="col-10 pb-3">
+			<input asp-for="CustomerName" class="form-control" />
+			<span asp-validation-for="CustomerName" class="text-danger"></span>
+        </div>
+
+		<div class="col-2">
+			<label asp-for="ReservedBy" class="control-label pt-2" style="font-size:20px;"></label>
+		</div>
+			<div class="col-10 pb-3">
+			<input asp-for="ReservedBy" class="form-control" />
+			<span asp-validation-for="ReservedBy" class="text-danger"></span>
+		</div>
+
+		<div class="col-2">
+			<label asp-for="CreationDate" class="control-label pt-2" style="font-size:20px;"></label>
+		</div>
+			<div class="col-10 pb-3">
+			<input asp-for="CreationDate" class="form-control" />
+			<span asp-validation-for="CreationDate" class="text-danger"></span>
+		</div>
+
+		<div class="col-2">
+			<label asp-for="ReservationDate" class="control-label pt-2" style="font-size:20px;"></label>
+		</div>
+			<div class="col-10 pb-3">
+			<input asp-for="ReservationDate" class="form-control" />
+			<span asp-validation-for="CustomerName" class="text-danger"></span>
+		</div>
+
+		<div class="col-2">
+			<label asp-for="Trip_Id" class="control-label pt-2" style="font-size:20px;"></label>
+		</div>
+			<div class="col-10 pb-3 ">
+			<input asp-for="Trip_Id" class="form-control" />
+			<span asp-validation-for="Trip_Id" class="text-danger"></span>
+		</div>
+
+		<div class="col-2">
+			<label asp-for="Notes" class="control-label pt-2" style="font-size:20px;"></label>
+		</div>
+			<div class="col-10 pb-3">
+			<textarea asp-for="Notes" class="form-control" rows="5"> </textarea>
+			<span asp-validation-for="Notes" class="text-danger"></span>
+		</div>
+		<div class="col-5 offset-2">
+			<a asp-action="IndexReservation" asp-controller="Reservation" class="btn-primary btn form-control">Back To List</a>
+		</div>
+		<div class="col-5">
+				<input type="submit" value="Create" class="btn btn-success form-controller" />
+		</div>	
+	    </div>
+        </div>
+
+
+</form>
+
+@section Scripts{
+	<partialname="_ValidationScriptsPartial"/>
+}
