@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Booking_ReservationAPI.Models
+namespace Booking_web.Models
 {
     public class APIResponse
     {

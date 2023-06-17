@@ -1,17 +1,15 @@
 ﻿
 using AutoMapper;
-using Booking_ReservationAPI.Models;
-using Booking_ReservationAPI.Models.Dto;
+using Booking_web.Models.Dto;
 
-namespace Booking_ReservationAPI
+namespace Booking_web
 {
     public class MappingConfig :Profile
     {
         public MappingConfig()
         {
-            CreateMap<Reservation,ReservationDTO>().ReverseMap();
-            CreateMap<Reservation, ReservationUpdateDTO>().ReverseMap();
-            CreateMap<Reservation, ReservationCreateDTO>().ReverseMap();
+            CreateMap<ReservationDTO, ReservationUpdateDTO>().ReverseMap();
+            CreateMap<ReservationDTO, ReservationCreateDTO>().ReverseMap();
 
         }
     }

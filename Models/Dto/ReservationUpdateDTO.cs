@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Booking_ReservationAPI.Models.Dto
+namespace Booking_web.Models.Dto
 {
     public class ReservationUpdateDTO
     {

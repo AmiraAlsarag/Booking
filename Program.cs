@@ -1,49 +1,35 @@
-using Booking_ReservationAPI;
-using Booking_ReservationAPI.Data;
-using Booking_ReservationAPI.Repository.IRepository;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Serilog;
+using Booking_web;
+using Booking_web.Services.IServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
-builder.Services.AddDbContext<ApplicationDbContext>(option =>
-{
-    option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultSQLConnection"));
-
-});
-
-builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
+// Add services to the container.
+builder.Services.AddControllersWithViews();
 builder.Services.AddAutoMapper(typeof(MappingConfig));
+builder.Services.AddHttpClient<IReservationService,ReservationService>();
+builder.Services.AddScoped<IReservationService, ReservationService>();
 
-Log.Logger = new LoggerConfiguration().MinimumLevel.Debug()
-    .WriteTo.File("log/ReservationLogs.txt", rollingInterval: RollingInterval.Day).CreateLogger();
 
-builder.Host.UseSerilog();
-
-builder.Services.AddControllers().AddNewtonsoftJson();
-
-//(options =>{options.ReturnHttpNotAcceptable = true; }
-
-//.AddXmlDataContractSerializerFormatters();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (!app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseExceptionHandler("/Home/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+
+app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllers();
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
