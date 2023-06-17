@@ -1,0 +1,58 @@
+2023-06-14 15:23:59.846 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 15:24:00.313 +03:00 [DBG] The property 'Reservation.TripId' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-06-14 15:24:00.472 +03:00 [DBG] Entity Framework Core 7.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.7' with options: None
+2023-06-14 15:24:00.492 +03:00 [DBG] Creating DbConnection.
+2023-06-14 15:24:00.540 +03:00 [DBG] Created DbConnection. (43ms).
+2023-06-14 15:24:00.543 +03:00 [DBG] Migrating using database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:24:00.548 +03:00 [DBG] Opening connection to database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:24:00.720 +03:00 [DBG] An error occurred using the connection to database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:24:00.721 +03:00 [DBG] Opening connection to database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:24:00.722 +03:00 [DBG] An error occurred using the connection to database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:24:00.775 +03:00 [DBG] The property 'Reservation.TripId' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-06-14 15:24:00.810 +03:00 [DBG] Creating DbConnection.
+2023-06-14 15:24:00.811 +03:00 [DBG] Created DbConnection. (0ms).
+2023-06-14 15:24:00.811 +03:00 [DBG] Opening connection to database 'master' on server 'A'.
+2023-06-14 15:24:00.832 +03:00 [DBG] Opened connection to database 'master' on server 'A'.
+2023-06-14 15:24:00.842 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 15:24:00.852 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2023-06-14 15:24:00.855 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (17ms).
+2023-06-14 15:24:00.865 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Booking_ReservationAPI];
+2023-06-14 15:24:01.809 +03:00 [ERR] Failed executing DbCommand (939ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Booking_ReservationAPI];
+2023-06-14 15:24:01.813 +03:00 [DBG] Closing connection to database 'master' on server 'A'.
+2023-06-14 15:24:01.831 +03:00 [DBG] Closed connection to database 'master' on server 'A' (12ms).
+2023-06-14 15:24:01.832 +03:00 [DBG] Disposing connection to database 'master' on server 'A'.
+2023-06-14 15:24:01.833 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2023-06-14 15:24:01.835 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-06-14 15:24:01.836 +03:00 [DBG] Disposing connection to database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:24:01.836 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-06-14 15:25:42.512 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 15:25:43.009 +03:00 [DBG] The property 'Reservation.TripId' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-06-14 15:25:43.213 +03:00 [DBG] Entity Framework Core 7.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.7' with options: None
+2023-06-14 15:25:43.241 +03:00 [DBG] Creating DbConnection.
+2023-06-14 15:25:43.289 +03:00 [DBG] Created DbConnection. (43ms).
+2023-06-14 15:25:43.291 +03:00 [DBG] Migrating using database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:25:43.298 +03:00 [DBG] Opening connection to database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:25:43.502 +03:00 [DBG] An error occurred using the connection to database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:25:43.502 +03:00 [DBG] Opening connection to database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:25:43.503 +03:00 [DBG] An error occurred using the connection to database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:25:43.527 +03:00 [DBG] The property 'Reservation.TripId' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-06-14 15:25:43.542 +03:00 [DBG] Creating DbConnection.
+2023-06-14 15:25:43.542 +03:00 [DBG] Created DbConnection. (0ms).
+2023-06-14 15:25:43.542 +03:00 [DBG] Opening connection to database 'master' on server 'A'.
+2023-06-14 15:25:43.556 +03:00 [DBG] Opened connection to database 'master' on server 'A'.
+2023-06-14 15:25:43.561 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 15:25:43.566 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2023-06-14 15:25:43.568 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (9ms).
+2023-06-14 15:25:43.573 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Booking_ReservationAPI];
+2023-06-14 15:25:43.833 +03:00 [ERR] Failed executing DbCommand (247ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Booking_ReservationAPI];
+2023-06-14 15:25:43.838 +03:00 [DBG] Closing connection to database 'master' on server 'A'.
+2023-06-14 15:25:43.852 +03:00 [DBG] Closed connection to database 'master' on server 'A' (10ms).
+2023-06-14 15:25:43.854 +03:00 [DBG] Disposing connection to database 'master' on server 'A'.
+2023-06-14 15:25:43.855 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2023-06-14 15:25:43.857 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-06-14 15:25:43.858 +03:00 [DBG] Disposing connection to database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:25:43.858 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).

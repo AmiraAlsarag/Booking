@@ -1,0 +1,40 @@
+2023-06-14 15:12:15.901 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-14 15:12:16.662 +03:00 [DBG] Hosting starting
+2023-06-14 15:12:17.014 +03:00 [INF] Now listening on: https://localhost:7042
+2023-06-14 15:12:17.014 +03:00 [INF] Now listening on: http://localhost:5030
+2023-06-14 15:12:17.014 +03:00 [DBG] Loaded hosting startup assembly Booking_ReservationAPI
+2023-06-14 15:12:17.014 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-14 15:12:17.014 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-14 15:12:17.015 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-14 15:12:17.015 +03:00 [INF] Hosting environment: Development
+2023-06-14 15:12:17.015 +03:00 [INF] Content root path: C:\Users\Mira\source\TestApis\Booking\Booking_ReservationAPI
+2023-06-14 15:12:17.016 +03:00 [DBG] Hosting started
+2023-06-14 15:16:30.154 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 15:16:31.119 +03:00 [DBG] The property 'Reservation.TripId' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-06-14 15:16:31.294 +03:00 [DBG] Entity Framework Core 7.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.7' with options: None
+2023-06-14 15:16:31.314 +03:00 [DBG] Creating DbConnection.
+2023-06-14 15:16:31.351 +03:00 [DBG] Created DbConnection. (34ms).
+2023-06-14 15:16:31.352 +03:00 [DBG] Migrating using database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:16:31.357 +03:00 [DBG] Opening connection to database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:16:31.733 +03:00 [DBG] An error occurred using the connection to database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:16:31.734 +03:00 [DBG] Opening connection to database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:16:31.735 +03:00 [DBG] An error occurred using the connection to database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:16:31.769 +03:00 [DBG] The property 'Reservation.TripId' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-06-14 15:16:31.784 +03:00 [DBG] Creating DbConnection.
+2023-06-14 15:16:31.784 +03:00 [DBG] Created DbConnection. (0ms).
+2023-06-14 15:16:31.784 +03:00 [DBG] Opening connection to database 'master' on server 'A'.
+2023-06-14 15:16:31.798 +03:00 [DBG] Opened connection to database 'master' on server 'A'.
+2023-06-14 15:16:31.803 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 15:16:31.808 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2023-06-14 15:16:31.810 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (9ms).
+2023-06-14 15:16:31.816 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Booking_ReservationAPI];
+2023-06-14 15:16:34.452 +03:00 [ERR] Failed executing DbCommand (2,618ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Booking_ReservationAPI];
+2023-06-14 15:16:34.457 +03:00 [DBG] Closing connection to database 'master' on server 'A'.
+2023-06-14 15:16:34.477 +03:00 [DBG] Closed connection to database 'master' on server 'A' (11ms).
+2023-06-14 15:16:34.481 +03:00 [DBG] Disposing connection to database 'master' on server 'A'.
+2023-06-14 15:16:34.483 +03:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2023-06-14 15:16:34.486 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-06-14 15:16:34.487 +03:00 [DBG] Disposing connection to database 'Booking_ReservationAPI' on server 'A'.
+2023-06-14 15:16:34.487 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).

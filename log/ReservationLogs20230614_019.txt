@@ -1,0 +1,266 @@
+2023-06-14 16:29:50.413 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 16:29:50.833 +03:00 [DBG] The property 'Reservation.TripId' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-06-14 16:29:50.965 +03:00 [DBG] Entity Framework Core 7.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.7' with options: None
+2023-06-14 16:29:50.987 +03:00 [DBG] The property 'Reservation.TripId' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-06-14 16:29:51.151 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-06-14 16:30:06.178 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 16:30:06.709 +03:00 [DBG] The property 'Reservation.TripId' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-06-14 16:30:06.853 +03:00 [DBG] Entity Framework Core 7.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.7' with options: None
+2023-06-14 16:30:06.874 +03:00 [DBG] Creating DbConnection.
+2023-06-14 16:30:06.930 +03:00 [DBG] Created DbConnection. (49ms).
+2023-06-14 16:30:06.933 +03:00 [DBG] Migrating using database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:06.946 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:07.590 +03:00 [DBG] An error occurred using the connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:07.592 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:07.595 +03:00 [DBG] An error occurred using the connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:07.673 +03:00 [DBG] The property 'Reservation.TripId' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-06-14 16:30:07.700 +03:00 [DBG] Creating DbConnection.
+2023-06-14 16:30:07.700 +03:00 [DBG] Created DbConnection. (0ms).
+2023-06-14 16:30:07.700 +03:00 [DBG] Opening connection to database 'master' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:07.717 +03:00 [DBG] Opened connection to database 'master' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:07.724 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 16:30:07.731 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (7ms).
+2023-06-14 16:30:07.732 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (12ms).
+2023-06-14 16:30:07.738 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Booking_ReservAPI_DB];
+2023-06-14 16:30:09.442 +03:00 [INF] Executed DbCommand (1,696ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Booking_ReservAPI_DB];
+2023-06-14 16:30:09.445 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 16:30:09.445 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:09.445 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:09.445 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Booking_ReservAPI_DB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-06-14 16:30:10.244 +03:00 [INF] Executed DbCommand (798ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Booking_ReservAPI_DB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-06-14 16:30:10.246 +03:00 [DBG] Closing connection to database 'master' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.264 +03:00 [DBG] Closed connection to database 'master' on server 'A\SQLEXPRESS' (10ms).
+2023-06-14 16:30:10.269 +03:00 [DBG] Disposing connection to database 'master' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.272 +03:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2023-06-14 16:30:10.272 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.277 +03:00 [DBG] Opened connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.277 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 16:30:10.277 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.277 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.278 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 16:30:10.338 +03:00 [INF] Executed DbCommand (61ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 16:30:10.338 +03:00 [DBG] Closing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.339 +03:00 [DBG] Closed connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' (0ms).
+2023-06-14 16:30:10.499 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 16:30:10.499 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.499 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.499 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.501 +03:00 [DBG] Opened connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.501 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-06-14 16:30:10.616 +03:00 [INF] Executed DbCommand (116ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-06-14 16:30:10.617 +03:00 [DBG] Closing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.617 +03:00 [DBG] Closed connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' (0ms).
+2023-06-14 16:30:10.620 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.620 +03:00 [DBG] Opened connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.620 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 16:30:10.621 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.621 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.621 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 16:30:10.623 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-14 16:30:10.623 +03:00 [DBG] Closing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.623 +03:00 [DBG] Closed connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' (0ms).
+2023-06-14 16:30:10.633 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-14 16:30:10.634 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-06-14 16:30:10.634 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-06-14 16:30:10.634 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.634 +03:00 [DBG] Opened connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.636 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 16:30:10.674 +03:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-14 16:30:10.674 +03:00 [DBG] Closing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.675 +03:00 [DBG] Closed connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' (0ms).
+2023-06-14 16:30:10.677 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 16:30:10.677 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-14 16:30:10.677 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-14 16:30:10.677 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.677 +03:00 [DBG] Opened connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.678 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-14 16:30:10.700 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-14 16:30:10.703 +03:00 [DBG] Closing data reader to 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.704 +03:00 [DBG] A data reader for 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' is being disposed after spending 2ms reading results.
+2023-06-14 16:30:10.705 +03:00 [DBG] Closing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.705 +03:00 [DBG] Closed connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' (0ms).
+2023-06-14 16:30:10.719 +03:00 [INF] Applying migration '20230613222829_addtables_reservation_trip_user'.
+2023-06-14 16:30:10.748 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.748 +03:00 [DBG] Opened connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.751 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-14 16:30:10.757 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-06-14 16:30:10.757 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 16:30:10.758 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.759 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2023-06-14 16:30:10.759 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Trips] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [CityName] nvarchar(max) NOT NULL,
+    [Price] int NOT NULL,
+    [ImageUrl] nvarchar(max) NOT NULL,
+    [CreationDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Trips] PRIMARY KEY ([Id])
+);
+2023-06-14 16:30:10.796 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Trips] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [CityName] nvarchar(max) NOT NULL,
+    [Price] int NOT NULL,
+    [ImageUrl] nvarchar(max) NOT NULL,
+    [CreationDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Trips] PRIMARY KEY ([Id])
+);
+2023-06-14 16:30:10.797 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 16:30:10.798 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.798 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.798 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Email] nvarchar(max) NOT NULL,
+    [Password] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+2023-06-14 16:30:10.803 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Email] nvarchar(max) NOT NULL,
+    [Password] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+2023-06-14 16:30:10.803 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 16:30:10.804 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.804 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.804 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reservations] (
+    [Id] int NOT NULL IDENTITY,
+    [CustomerName] nvarchar(max) NOT NULL,
+    [TripId] int NOT NULL,
+    [ReservationDate] datetime2 NOT NULL,
+    [CreationDate] datetime2 NOT NULL,
+    [Notes] nvarchar(max) NOT NULL,
+    [ReservedBy] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Reservations] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Reservations_Trips_TripId] FOREIGN KEY ([TripId]) REFERENCES [Trips] ([Id]) ON DELETE CASCADE
+);
+2023-06-14 16:30:10.830 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reservations] (
+    [Id] int NOT NULL IDENTITY,
+    [CustomerName] nvarchar(max) NOT NULL,
+    [TripId] int NOT NULL,
+    [ReservationDate] datetime2 NOT NULL,
+    [CreationDate] datetime2 NOT NULL,
+    [Notes] nvarchar(max) NOT NULL,
+    [ReservedBy] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Reservations] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Reservations_Trips_TripId] FOREIGN KEY ([TripId]) REFERENCES [Trips] ([Id]) ON DELETE CASCADE
+);
+2023-06-14 16:30:10.830 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 16:30:10.830 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.830 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.830 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Reservations_TripId] ON [Reservations] ([TripId]);
+2023-06-14 16:30:10.888 +03:00 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Reservations_TripId] ON [Reservations] ([TripId]);
+2023-06-14 16:30:10.888 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 16:30:10.888 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.888 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.888 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230613222829_addtables_reservation_trip_user', N'7.0.7');
+2023-06-14 16:30:10.940 +03:00 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230613222829_addtables_reservation_trip_user', N'7.0.7');
+2023-06-14 16:30:10.943 +03:00 [DBG] Committing transaction.
+2023-06-14 16:30:10.951 +03:00 [DBG] Committed transaction.
+2023-06-14 16:30:10.954 +03:00 [DBG] Disposing transaction.
+2023-06-14 16:30:10.954 +03:00 [DBG] Closing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.954 +03:00 [DBG] Closed connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' (0ms).
+2023-06-14 16:30:10.955 +03:00 [INF] Applying migration '20230614002221_m1'.
+2023-06-14 16:30:10.962 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.962 +03:00 [DBG] Opened connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.963 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-14 16:30:10.963 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-06-14 16:30:10.963 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 16:30:10.964 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.964 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.964 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230614002221_m1', N'7.0.7');
+2023-06-14 16:30:10.965 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230614002221_m1', N'7.0.7');
+2023-06-14 16:30:10.965 +03:00 [DBG] Committing transaction.
+2023-06-14 16:30:10.967 +03:00 [DBG] Committed transaction.
+2023-06-14 16:30:10.967 +03:00 [DBG] Disposing transaction.
+2023-06-14 16:30:10.967 +03:00 [DBG] Closing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.967 +03:00 [DBG] Closed connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' (0ms).
+2023-06-14 16:30:10.967 +03:00 [INF] Applying migration '20230614124650_testdb'.
+2023-06-14 16:30:10.970 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.970 +03:00 [DBG] Opened connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.971 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-14 16:30:10.971 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-06-14 16:30:10.971 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 16:30:10.971 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.971 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.971 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230614124650_testdb', N'7.0.7');
+2023-06-14 16:30:10.972 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230614124650_testdb', N'7.0.7');
+2023-06-14 16:30:10.972 +03:00 [DBG] Committing transaction.
+2023-06-14 16:30:10.973 +03:00 [DBG] Committed transaction.
+2023-06-14 16:30:10.973 +03:00 [DBG] Disposing transaction.
+2023-06-14 16:30:10.973 +03:00 [DBG] Closing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.973 +03:00 [DBG] Closed connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' (0ms).
+2023-06-14 16:30:10.973 +03:00 [INF] Applying migration '20230614132951_test5'.
+2023-06-14 16:30:10.976 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.976 +03:00 [DBG] Opened connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.976 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-14 16:30:10.977 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-06-14 16:30:10.977 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 16:30:10.977 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.977 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-14 16:30:10.977 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230614132951_test5', N'7.0.7');
+2023-06-14 16:30:10.977 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230614132951_test5', N'7.0.7');
+2023-06-14 16:30:10.977 +03:00 [DBG] Committing transaction.
+2023-06-14 16:30:10.979 +03:00 [DBG] Committed transaction.
+2023-06-14 16:30:10.979 +03:00 [DBG] Disposing transaction.
+2023-06-14 16:30:10.979 +03:00 [DBG] Closing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.979 +03:00 [DBG] Closed connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' (0ms).
+2023-06-14 16:30:10.980 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-06-14 16:30:10.981 +03:00 [DBG] Disposing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-14 16:30:10.981 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).

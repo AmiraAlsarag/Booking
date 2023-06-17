@@ -1,0 +1,75 @@
+2023-06-14 03:26:44.747 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-14 03:26:44.846 +03:00 [DBG] Hosting starting
+2023-06-14 03:26:44.951 +03:00 [INF] Now listening on: https://localhost:7042
+2023-06-14 03:26:44.951 +03:00 [INF] Now listening on: http://localhost:5030
+2023-06-14 03:26:44.952 +03:00 [DBG] Loaded hosting startup assembly Booking_ReservationAPI
+2023-06-14 03:26:44.952 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-14 03:26:44.952 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-14 03:26:44.952 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-14 03:26:44.952 +03:00 [INF] Hosting environment: Development
+2023-06-14 03:26:44.952 +03:00 [INF] Content root path: C:\Users\Mira\source\TestApis\Booking\Booking_ReservationAPI
+2023-06-14 03:26:44.952 +03:00 [DBG] Hosting started
+2023-06-14 03:27:49.707 +03:00 [DBG] Config reload token fired. Checking for changes...
+2023-06-14 03:27:49.772 +03:00 [DBG] Connection id "0HMRCDONJNRKD" received FIN.
+2023-06-14 03:27:49.776 +03:00 [DBG] Connection id "0HMRCDONJNRKD" accepted.
+2023-06-14 03:27:49.777 +03:00 [DBG] Connection id "0HMRCDONJNRKD" started.
+2023-06-14 03:27:49.796 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-14 03:27:49.823 +03:00 [DBG] Connection id "0HMRCDONJNRKD" stopped.
+2023-06-14 03:27:49.831 +03:00 [DBG] Connection id "0HMRCDONJNRKD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 03:27:49.894 +03:00 [DBG] Connection id "0HMRCDONJNRKE" accepted.
+2023-06-14 03:27:49.894 +03:00 [DBG] Connection id "0HMRCDONJNRKE" started.
+2023-06-14 03:27:49.983 +03:00 [DBG] Config reload token fired. Checking for changes...
+2023-06-14 03:27:50.039 +03:00 [DBG] Connection 0HMRCDONJNRKE established using the following protocol: "Tls12"
+2023-06-14 03:27:50.151 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - -
+2023-06-14 03:27:50.233 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-14 03:27:50.270 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-14 03:27:50.270 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 03:27:50.366 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-14 03:27:50.673 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-14 03:27:50.677 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - - - 200 - text/html;charset=utf-8 531.3435ms
+2023-06-14 03:27:51.258 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - -
+2023-06-14 03:27:51.260 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - -
+2023-06-14 03:27:51.276 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 18.5591ms
+2023-06-14 03:27:51.425 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 165.0126ms
+2023-06-14 03:27:51.578 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - -
+2023-06-14 03:27:51.579 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-14 03:27:51.579 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 03:27:51.901 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 322.5509ms
+2023-06-14 03:27:52.562 +03:00 [DBG] Connection id "0HMRCDONJNRKE" received FIN.
+2023-06-14 03:27:52.571 +03:00 [DBG] Connection id "0HMRCDONJNRKE" is closed. The last processed stream ID was 7.
+2023-06-14 03:27:52.571 +03:00 [DBG] The connection queue processing loop for 0HMRCDONJNRKE completed.
+2023-06-14 03:27:52.572 +03:00 [DBG] Connection id "0HMRCDONJNRKE" sending FIN because: "The client closed the connection."
+2023-06-14 03:27:52.573 +03:00 [DBG] Connection id "0HMRCDONJNRKE" stopped.
+2023-06-14 03:28:10.725 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 03:28:11.317 +03:00 [DBG] The property 'Reservation.TripId' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-06-14 03:28:11.557 +03:00 [DBG] Entity Framework Core 7.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.7' with options: None
+2023-06-14 03:28:11.587 +03:00 [DBG] Creating DbConnection.
+2023-06-14 03:28:11.655 +03:00 [DBG] Created DbConnection. (63ms).
+2023-06-14 03:28:11.657 +03:00 [DBG] Migrating using database 'Booking_ReservationAPI' on server '.'.
+2023-06-14 03:28:11.662 +03:00 [DBG] Opening connection to database 'Booking_ReservationAPI' on server '.'.
+2023-06-14 03:28:12.090 +03:00 [DBG] An error occurred using the connection to database 'Booking_ReservationAPI' on server '.'.
+2023-06-14 03:28:12.091 +03:00 [DBG] Opening connection to database 'Booking_ReservationAPI' on server '.'.
+2023-06-14 03:28:12.093 +03:00 [DBG] An error occurred using the connection to database 'Booking_ReservationAPI' on server '.'.
+2023-06-14 03:28:12.234 +03:00 [DBG] The property 'Reservation.TripId' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-06-14 03:28:12.289 +03:00 [DBG] Creating DbConnection.
+2023-06-14 03:28:12.289 +03:00 [DBG] Created DbConnection. (0ms).
+2023-06-14 03:28:12.289 +03:00 [DBG] Opening connection to database 'master' on server '.'.
+2023-06-14 03:28:12.349 +03:00 [DBG] Opened connection to database 'master' on server '.'.
+2023-06-14 03:28:12.357 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-14 03:28:12.367 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (9ms).
+2023-06-14 03:28:12.369 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (15ms).
+2023-06-14 03:28:12.376 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Booking_ReservationAPI];
+2023-06-14 03:28:13.048 +03:00 [ERR] Failed executing DbCommand (656ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Booking_ReservationAPI];
+2023-06-14 03:28:13.052 +03:00 [DBG] Closing connection to database 'master' on server '.'.
+2023-06-14 03:28:13.066 +03:00 [DBG] Closed connection to database 'master' on server '.' (8ms).
+2023-06-14 03:28:13.067 +03:00 [DBG] Disposing connection to database 'master' on server '.'.
+2023-06-14 03:28:13.068 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2023-06-14 03:28:13.070 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-06-14 03:28:13.070 +03:00 [DBG] Disposing connection to database 'Booking_ReservationAPI' on server '.'.
+2023-06-14 03:28:13.071 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).

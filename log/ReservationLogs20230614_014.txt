@@ -1,0 +1,138 @@
+2023-06-14 15:37:51.811 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-14 15:37:51.917 +03:00 [DBG] Hosting starting
+2023-06-14 15:37:52.029 +03:00 [INF] Now listening on: https://localhost:7042
+2023-06-14 15:37:52.030 +03:00 [INF] Now listening on: http://localhost:5030
+2023-06-14 15:37:52.030 +03:00 [DBG] Loaded hosting startup assembly Booking_ReservationAPI
+2023-06-14 15:37:52.030 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-14 15:37:52.030 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-14 15:37:52.030 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-14 15:37:52.030 +03:00 [INF] Hosting environment: Development
+2023-06-14 15:37:52.031 +03:00 [INF] Content root path: C:\Users\Mira\source\TestApis\Booking\Booking_ReservationAPI
+2023-06-14 15:37:52.031 +03:00 [DBG] Hosting started
+2023-06-14 15:37:52.497 +03:00 [DBG] Connection id "0HMRCQGLR2OUO" accepted.
+2023-06-14 15:37:52.498 +03:00 [DBG] Connection id "0HMRCQGLR2OUO" started.
+2023-06-14 15:37:52.503 +03:00 [DBG] Connection id "0HMRCQGLR2OUP" accepted.
+2023-06-14 15:37:52.503 +03:00 [DBG] Connection id "0HMRCQGLR2OUP" started.
+2023-06-14 15:37:52.534 +03:00 [DBG] Connection id "0HMRCQGLR2OUP" received FIN.
+2023-06-14 15:37:52.534 +03:00 [DBG] Connection id "0HMRCQGLR2OUO" received FIN.
+2023-06-14 15:37:52.543 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-14 15:37:52.543 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-14 15:37:52.545 +03:00 [DBG] Connection id "0HMRCQGLR2OUQ" accepted.
+2023-06-14 15:37:52.560 +03:00 [DBG] Connection id "0HMRCQGLR2OUQ" started.
+2023-06-14 15:37:52.563 +03:00 [DBG] Connection id "0HMRCQGLR2OUO" stopped.
+2023-06-14 15:37:52.563 +03:00 [DBG] Connection id "0HMRCQGLR2OUP" stopped.
+2023-06-14 15:37:52.568 +03:00 [DBG] Connection id "0HMRCQGLR2OUO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 15:37:52.568 +03:00 [DBG] Connection id "0HMRCQGLR2OUP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 15:37:52.589 +03:00 [DBG] Connection 0HMRCQGLR2OUQ established using the following protocol: "Tls12"
+2023-06-14 15:37:52.638 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - -
+2023-06-14 15:37:52.653 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-14 15:37:52.675 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-14 15:37:52.675 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 15:37:52.769 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-14 15:37:52.852 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-14 15:37:52.855 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - -
+2023-06-14 15:37:52.855 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - -
+2023-06-14 15:37:52.856 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - - - 200 - text/html;charset=utf-8 219.4974ms
+2023-06-14 15:37:52.865 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 10.0412ms
+2023-06-14 15:37:52.880 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.2102ms
+2023-06-14 15:37:53.003 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - -
+2023-06-14 15:37:53.003 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-14 15:37:53.003 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 15:37:53.144 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.3549ms
+2023-06-14 15:43:25.814 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-14 15:43:25.899 +03:00 [DBG] Hosting starting
+2023-06-14 15:43:26.067 +03:00 [INF] Now listening on: https://localhost:7042
+2023-06-14 15:43:26.067 +03:00 [INF] Now listening on: http://localhost:5030
+2023-06-14 15:43:26.068 +03:00 [DBG] Loaded hosting startup assembly Booking_ReservationAPI
+2023-06-14 15:43:26.068 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-14 15:43:26.068 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-14 15:43:26.068 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-14 15:43:26.068 +03:00 [INF] Hosting environment: Development
+2023-06-14 15:43:26.068 +03:00 [INF] Content root path: C:\Users\Mira\source\TestApis\Booking\Booking_ReservationAPI
+2023-06-14 15:43:26.068 +03:00 [DBG] Hosting started
+2023-06-14 15:43:26.076 +03:00 [DBG] Connection id "0HMRCQJP8B1SL" received FIN.
+2023-06-14 15:43:26.082 +03:00 [DBG] Connection id "0HMRCQJP8B1SL" accepted.
+2023-06-14 15:43:26.082 +03:00 [DBG] Connection id "0HMRCQJP8B1SL" started.
+2023-06-14 15:43:26.099 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-14 15:43:26.126 +03:00 [DBG] Connection id "0HMRCQJP8B1SL" stopped.
+2023-06-14 15:43:26.133 +03:00 [DBG] Connection id "0HMRCQJP8B1SL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 15:43:26.193 +03:00 [DBG] Connection id "0HMRCQJP8B1SM" accepted.
+2023-06-14 15:43:26.193 +03:00 [DBG] Connection id "0HMRCQJP8B1SM" started.
+2023-06-14 15:43:26.402 +03:00 [DBG] Connection 0HMRCQJP8B1SM established using the following protocol: "Tls12"
+2023-06-14 15:43:26.569 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - -
+2023-06-14 15:43:26.612 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-14 15:43:26.684 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-14 15:43:26.685 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 15:43:26.936 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-14 15:43:27.089 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-14 15:43:27.092 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - - - 200 - text/html;charset=utf-8 548.7073ms
+2023-06-14 15:43:27.109 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - -
+2023-06-14 15:43:27.113 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - -
+2023-06-14 15:43:27.136 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 21.1281ms
+2023-06-14 15:43:27.174 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.1791ms
+2023-06-14 15:43:27.351 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - -
+2023-06-14 15:43:27.351 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-14 15:43:27.351 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 15:43:27.586 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 235.7718ms
+2023-06-14 15:43:28.918 +03:00 [DBG] Connection id "0HMRCQJP8B1SM" received FIN.
+2023-06-14 15:43:28.920 +03:00 [DBG] The connection queue processing loop for 0HMRCQJP8B1SM completed.
+2023-06-14 15:43:28.928 +03:00 [DBG] Connection id "0HMRCQJP8B1SM" is closed. The last processed stream ID was 7.
+2023-06-14 15:43:28.929 +03:00 [DBG] Connection id "0HMRCQJP8B1SM" sending FIN because: "The client closed the connection."
+2023-06-14 15:43:28.929 +03:00 [DBG] Connection id "0HMRCQJP8B1SM" stopped.
+2023-06-14 15:43:52.550 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-14 15:43:52.644 +03:00 [DBG] Hosting starting
+2023-06-14 15:43:52.754 +03:00 [INF] Now listening on: https://localhost:7042
+2023-06-14 15:43:52.754 +03:00 [INF] Now listening on: http://localhost:5030
+2023-06-14 15:43:52.754 +03:00 [DBG] Loaded hosting startup assembly Booking_ReservationAPI
+2023-06-14 15:43:52.754 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-14 15:43:52.754 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-14 15:43:52.755 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-14 15:43:52.755 +03:00 [INF] Hosting environment: Development
+2023-06-14 15:43:52.755 +03:00 [INF] Content root path: C:\Users\Mira\source\TestApis\Booking\Booking_ReservationAPI
+2023-06-14 15:43:52.755 +03:00 [DBG] Hosting started
+2023-06-14 15:45:51.211 +03:00 [DBG] Config reload token fired. Checking for changes...
+2023-06-14 15:45:51.574 +03:00 [DBG] Connection id "0HMRCQL4JT8MK" received FIN.
+2023-06-14 15:45:51.589 +03:00 [DBG] Connection id "0HMRCQL4JT8MK" accepted.
+2023-06-14 15:45:51.591 +03:00 [DBG] Connection id "0HMRCQL4JT8MK" started.
+2023-06-14 15:45:51.622 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-14 15:45:51.650 +03:00 [DBG] Connection id "0HMRCQL4JT8MK" stopped.
+2023-06-14 15:45:51.658 +03:00 [DBG] Connection id "0HMRCQL4JT8MK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 15:45:51.723 +03:00 [DBG] Connection id "0HMRCQL4JT8ML" accepted.
+2023-06-14 15:45:51.723 +03:00 [DBG] Connection id "0HMRCQL4JT8ML" started.
+2023-06-14 15:45:52.004 +03:00 [DBG] Connection 0HMRCQL4JT8ML established using the following protocol: "Tls12"
+2023-06-14 15:45:52.092 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - -
+2023-06-14 15:45:52.128 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-14 15:45:52.174 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-14 15:45:52.175 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 15:45:52.388 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-14 15:45:52.508 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-14 15:45:52.513 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - - - 200 - text/html;charset=utf-8 424.2996ms
+2023-06-14 15:45:52.514 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - -
+2023-06-14 15:45:52.516 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - -
+2023-06-14 15:45:52.529 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 15.1347ms
+2023-06-14 15:45:52.565 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.8388ms
+2023-06-14 15:45:52.697 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - -
+2023-06-14 15:45:52.698 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-14 15:45:52.698 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 15:45:52.918 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 221.0294ms
+2023-06-14 15:45:55.405 +03:00 [DBG] Connection id "0HMRCQL4JT8ML" received FIN.
+2023-06-14 15:45:55.414 +03:00 [DBG] The connection queue processing loop for 0HMRCQL4JT8ML completed.
+2023-06-14 15:45:55.417 +03:00 [DBG] Connection id "0HMRCQL4JT8ML" is closed. The last processed stream ID was 7.
+2023-06-14 15:45:55.417 +03:00 [DBG] Connection id "0HMRCQL4JT8ML" sending FIN because: "The client closed the connection."
+2023-06-14 15:45:55.429 +03:00 [DBG] Connection id "0HMRCQL4JT8ML" stopped.

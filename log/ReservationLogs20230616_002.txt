@@ -1,0 +1,144 @@
+2023-06-16 02:47:33.563 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-16 02:47:33.718 +03:00 [DBG] Hosting starting
+2023-06-16 02:47:33.961 +03:00 [INF] Now listening on: https://localhost:7042
+2023-06-16 02:47:33.961 +03:00 [INF] Now listening on: http://localhost:5030
+2023-06-16 02:47:33.961 +03:00 [DBG] Loaded hosting startup assembly Booking_ReservationAPI
+2023-06-16 02:47:33.961 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-16 02:47:33.961 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-16 02:47:33.962 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-16 02:47:33.962 +03:00 [INF] Hosting environment: Development
+2023-06-16 02:47:33.962 +03:00 [INF] Content root path: C:\Users\Mira\source\TestApis\Booking\Booking_ReservationAPI
+2023-06-16 02:47:33.963 +03:00 [DBG] Hosting started
+2023-06-16 02:47:34.064 +03:00 [DBG] Connection id "0HMRDVBI2V8VC" accepted.
+2023-06-16 02:47:34.065 +03:00 [DBG] Connection id "0HMRDVBI2V8VC" started.
+2023-06-16 02:47:34.259 +03:00 [DBG] Connection 0HMRDVBI2V8VC established using the following protocol: "Tls12"
+2023-06-16 02:47:34.399 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - -
+2023-06-16 02:47:34.433 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-16 02:47:34.473 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-16 02:47:34.637 +03:00 [DBG] Request did not match any endpoints
+2023-06-16 02:47:34.878 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-16 02:47:35.137 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-16 02:47:35.141 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - - - 200 - text/html;charset=utf-8 746.0352ms
+2023-06-16 02:47:35.246 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - -
+2023-06-16 02:47:35.316 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.5000ms
+2023-06-16 02:47:35.330 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - -
+2023-06-16 02:47:35.337 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 7.6623ms
+2023-06-16 02:47:35.815 +03:00 [DBG] Connection id "0HMRDVBI2V8VC" received FIN.
+2023-06-16 02:47:35.826 +03:00 [DBG] Connection id "0HMRDVBI2V8VC" is closed. The last processed stream ID was 5.
+2023-06-16 02:47:35.832 +03:00 [DBG] Connection id "0HMRDVBI2V8VC" sending FIN because: "The client closed the connection."
+2023-06-16 02:47:35.834 +03:00 [DBG] The connection queue processing loop for 0HMRDVBI2V8VC completed.
+2023-06-16 02:47:35.841 +03:00 [DBG] Connection id "0HMRDVBI2V8VC" stopped.
+2023-06-16 02:47:35.918 +03:00 [DBG] Connection id "0HMRDVBI2V8VD" accepted.
+2023-06-16 02:47:35.918 +03:00 [DBG] Connection id "0HMRDVBI2V8VD" started.
+2023-06-16 02:47:35.921 +03:00 [DBG] Connection 0HMRDVBI2V8VD established using the following protocol: "Tls12"
+2023-06-16 02:47:35.924 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - -
+2023-06-16 02:47:35.924 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-16 02:47:35.924 +03:00 [DBG] Request did not match any endpoints
+2023-06-16 02:47:36.404 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 480.5258ms
+2023-06-16 02:47:45.792 +03:00 [DBG] Connection id "0HMRDVBI2V8VD" received FIN.
+2023-06-16 02:47:45.794 +03:00 [DBG] The connection queue processing loop for 0HMRDVBI2V8VD completed.
+2023-06-16 02:47:45.794 +03:00 [DBG] Connection id "0HMRDVBI2V8VD" is closed. The last processed stream ID was 1.
+2023-06-16 02:47:45.795 +03:00 [DBG] Connection id "0HMRDVBI2V8VD" sending FIN because: "The client closed the connection."
+2023-06-16 02:47:45.806 +03:00 [DBG] Connection id "0HMRDVBI2V8VD" stopped.
+2023-06-16 02:54:21.940 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-16 02:54:22.785 +03:00 [DBG] Entity Framework Core 7.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.7' with options: None
+2023-06-16 02:54:22.814 +03:00 [DBG] Creating DbConnection.
+2023-06-16 02:54:22.881 +03:00 [DBG] Created DbConnection. (61ms).
+2023-06-16 02:54:22.884 +03:00 [DBG] Migrating using database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:22.894 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:23.127 +03:00 [DBG] Opened connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:23.137 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-16 02:54:23.147 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (9ms).
+2023-06-16 02:54:23.151 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (18ms).
+2023-06-16 02:54:23.161 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-16 02:54:23.332 +03:00 [INF] Executed DbCommand (175ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-16 02:54:23.334 +03:00 [DBG] Closing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:23.345 +03:00 [DBG] Closed connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' (5ms).
+2023-06-16 02:54:23.348 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-16 02:54:23.348 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-06-16 02:54:23.348 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-06-16 02:54:23.349 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:23.349 +03:00 [DBG] Opened connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:23.350 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-16 02:54:23.983 +03:00 [INF] Executed DbCommand (633ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-16 02:54:23.984 +03:00 [DBG] Closing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:23.984 +03:00 [DBG] Closed connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' (0ms).
+2023-06-16 02:54:23.985 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:23.986 +03:00 [DBG] Opened connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:23.986 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-16 02:54:23.986 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-16 02:54:23.986 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-16 02:54:23.986 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-16 02:54:23.988 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-16 02:54:23.988 +03:00 [DBG] Closing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:23.988 +03:00 [DBG] Closed connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' (0ms).
+2023-06-16 02:54:23.988 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-16 02:54:23.988 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-06-16 02:54:23.988 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-06-16 02:54:23.988 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:23.988 +03:00 [DBG] Opened connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:23.989 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-16 02:54:23.989 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-16 02:54:23.990 +03:00 [DBG] Closing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:23.990 +03:00 [DBG] Closed connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' (0ms).
+2023-06-16 02:54:24.026 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-16 02:54:24.027 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-16 02:54:24.027 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-16 02:54:24.027 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:24.027 +03:00 [DBG] Opened connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:24.028 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-16 02:54:24.152 +03:00 [INF] Executed DbCommand (125ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-16 02:54:24.155 +03:00 [DBG] Closing data reader to 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:24.156 +03:00 [DBG] A data reader for 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' is being disposed after spending 2ms reading results.
+2023-06-16 02:54:24.157 +03:00 [DBG] Closing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:24.157 +03:00 [DBG] Closed connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' (0ms).
+2023-06-16 02:54:24.173 +03:00 [INF] Applying migration '20230615234602_addforeignkeytotripinreservation'.
+2023-06-16 02:54:24.249 +03:00 [DBG] Opening connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:24.249 +03:00 [DBG] Opened connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:24.252 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-16 02:54:24.260 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-06-16 02:54:24.261 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-16 02:54:24.262 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-16 02:54:24.264 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2023-06-16 02:54:24.264 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [Reservations]
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-06-16 02:54:24.759 +03:00 [INF] Executed DbCommand (495ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [Reservations]
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-06-16 02:54:24.759 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-16 02:54:24.760 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-16 02:54:24.760 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-16 02:54:24.760 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Reservations_Trip_Id] ON [Reservations] ([Trip_Id]);
+2023-06-16 02:54:25.077 +03:00 [INF] Executed DbCommand (317ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Reservations_Trip_Id] ON [Reservations] ([Trip_Id]);
+2023-06-16 02:54:25.077 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-16 02:54:25.077 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-16 02:54:25.077 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-16 02:54:25.077 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Reservations] ADD CONSTRAINT [FK_Reservations_Trips_Trip_Id] FOREIGN KEY ([Trip_Id]) REFERENCES [Trips] ([Id]) ON DELETE CASCADE;
+2023-06-16 02:54:25.161 +03:00 [ERR] Failed executing DbCommand (82ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Reservations] ADD CONSTRAINT [FK_Reservations_Trips_Trip_Id] FOREIGN KEY ([Trip_Id]) REFERENCES [Trips] ([Id]) ON DELETE CASCADE;
+2023-06-16 02:54:25.164 +03:00 [DBG] Disposing transaction.
+2023-06-16 02:54:25.165 +03:00 [DBG] Closing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:25.166 +03:00 [DBG] Closed connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS' (0ms).
+2023-06-16 02:54:25.169 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-06-16 02:54:25.173 +03:00 [DBG] Disposing connection to database 'Booking_ReservAPI_DB' on server 'A\SQLEXPRESS'.
+2023-06-16 02:54:25.176 +03:00 [DBG] Disposed connection to database '' on server '' (2ms).
